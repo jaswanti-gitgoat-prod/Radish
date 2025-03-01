@@ -1,0 +1,39 @@
+[[package]]
+name = "cchardet"
+version = "2.1.7"
+description = "Universal character encoding detector"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "mysqlclient"
+version = "2.2.7"
+description = "Python interface to MySQL"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "paramiko"
+version = "3.5.1"
+description = "SSH2 protocol library"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "*"
+content-hash = "placeholder_hash"
+
+[metadata.files]
+cchardet = [
+    {file = "cchardet-2.1.7.tar.gz", hash = "sha256:placeholder"},
+]
+mysqlclient = [
+    {file = "mysqlclient-2.2.7.tar.gz", hash = "sha256:placeholder"},
+]
+paramiko = [
+    {file = "paramiko-3.5.1.tar.gz", hash = "sha256:placeholder"},
+]
